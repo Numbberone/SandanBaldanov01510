@@ -19,6 +19,7 @@ namespace Notepad
             double biology = 60;
             string forma = "ochnaya";
             double sredniy = ((physics + chemistry + biology) / 3);
+            double summ = ((physics + chemistry + biology));
 
 
             // 2 student
@@ -30,14 +31,14 @@ namespace Notepad
             string forma2 = "ochnaya";
 
             double sredniy2 = ((physics2 + chemistry2 + biology2) / 3);
-
+             double summ2 = ((physics2 + chemistry2 + biology2));
             //ввод с консоли
             // Console.WriteLine("введите возраст:");
             // int age1 = int.Parse(Console.ReadLine());
 
 
             // вывод
-            Console.WriteLine($" Name: {Name} {physics} {chemistry}{biology} {forma} {sredniy}");
+            Console.WriteLine($" Name: {Name} {physics} {chemistry} {biology} {forma} {sredniy}");
             Console.WriteLine($" Name: {Name2} {physics2} {chemistry} {biology2} {forma2} {sredniy2}");
 
 
