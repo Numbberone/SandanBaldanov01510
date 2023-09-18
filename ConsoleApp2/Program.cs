@@ -14,11 +14,12 @@ namespace Notepad
             // 1 student
              string Name = "Балданов Сандан Батоевич";
              int age = 18;
+            double physics = 70;
 
             // 2 student
             string Name2 = "Зубенко Михаил Петрович";
             int age2 = 20;
-
+            double physics2 = 70;
 
             //ввод с консоли
             // Console.WriteLine("введите возраст:");
@@ -26,8 +27,8 @@ namespace Notepad
 
 
             // вывод
-            Console.WriteLine($" Name: {Name} ");
-            Console.WriteLine($" Name: {Name2} ");
+            Console.WriteLine($" Name: {Name} {physics}");
+            Console.WriteLine($" Name: {Name2} {physics2}");
 
 
             Console.ReadKey();
