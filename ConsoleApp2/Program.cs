@@ -15,17 +15,21 @@ namespace Notepad
              string Name = "Балданов Сандан Батоевич";
              int age = 18;
             double physics = 70;
-            double chemistry = 54;
-            double biology = 56;
+            double chemistry = 55;
+            double biology = 60;
             string forma = "ochnaya";
+            double sredniy = ((physics + chemistry + biology) / 3);
+
 
             // 2 student
             string Name2 = "Зубенко Михаил Петрович";
             int age2 = 20;
-            double physics2 = 70;
-            double chemistry2 = 54;
-            double biology2 = 57;
+            double physics2 = 75;
+            double chemistry2 = 50;
+            double biology2 = 60;
             string forma2 = "ochnaya";
+
+            double sredniy2 = ((physics2 + chemistry2 + biology2) / 3);
 
             //ввод с консоли
             // Console.WriteLine("введите возраст:");
@@ -33,8 +37,8 @@ namespace Notepad
 
 
             // вывод
-            Console.WriteLine($" Name: {Name} {physics} {chemistry}{biology} {forma}");
-            Console.WriteLine($" Name: {Name2} {physics2} {chemistry} {biology2} {forma2}");
+            Console.WriteLine($" Name: {Name} {physics} {chemistry}{biology} {forma} {sredniy}");
+            Console.WriteLine($" Name: {Name2} {physics2} {chemistry} {biology2} {forma2} {sredniy2}");
 
 
             Console.ReadKey();
