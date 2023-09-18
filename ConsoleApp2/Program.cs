@@ -13,15 +13,16 @@ namespace Notepad
         {
             // 1 student
              string Name = "Балданов Сандан Батоевич";
-       
+             int age = 18;
 
-              // 2 student
-              string Name2 = "Зубенко Михаил Петрович";
-         
+            // 2 student
+            string Name2 = "Зубенко Михаил Петрович";
+            int age2 = 20;
+
 
             //ввод с консоли
-          // Console.WriteLine("введите возраст:");
-           // int age1 = int.Parse(Console.ReadLine());
+            // Console.WriteLine("введите возраст:");
+            // int age1 = int.Parse(Console.ReadLine());
 
 
             // вывод
