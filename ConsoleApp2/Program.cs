@@ -17,6 +17,7 @@ namespace Notepad
             double physics = 70;
             double chemistry = 54;
             double biology = 56;
+            string forma = "ochnaya";
 
             // 2 student
             string Name2 = "Зубенко Михаил Петрович";
@@ -24,6 +25,7 @@ namespace Notepad
             double physics2 = 70;
             double chemistry2 = 54;
             double biology2 = 57;
+            string forma2 = "ochnaya";
 
             //ввод с консоли
             // Console.WriteLine("введите возраст:");
@@ -31,8 +33,8 @@ namespace Notepad
 
 
             // вывод
-            Console.WriteLine($" Name: {Name} {physics} {chemistry}{biology}");
-            Console.WriteLine($" Name: {Name2} {physics2} {chemistry} {biology2}");
+            Console.WriteLine($" Name: {Name} {physics} {chemistry}{biology} {forma}");
+            Console.WriteLine($" Name: {Name2} {physics2} {chemistry} {biology2} {forma2}");
 
 
             Console.ReadKey();
